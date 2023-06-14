@@ -8,4 +8,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - id: foo
-        uses: judeigwe/gh-composite-actions@v1.1
+        uses: judeigwe/gh-composite-actions@main
