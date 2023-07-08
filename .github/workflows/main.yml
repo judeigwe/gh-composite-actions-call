@@ -10,4 +10,4 @@ jobs:
       - id: foo
         uses: judeigwe/gh-composite-actions@main
         with:
-          who-to-greet: {{ inputs.who-to-greet }}
+          who-to-greet: ${{ inputs.who-to-greet }}
