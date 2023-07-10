@@ -12,6 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - if: ${{ who-to-greet == true }}
+        run: echo "The script can run"
       - id: foo
         uses: judeigwe/gh-composite-actions@main
         with:
